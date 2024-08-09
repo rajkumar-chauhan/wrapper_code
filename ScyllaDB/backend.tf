@@ -1,8 +1,9 @@
 terraform {
   backend "s3" {
-    bucket = "sprint5"
-    key    = "Dev/Scylla.tfstate"
+    bucket = "ot-micro-services-p9-raj"
+    key    = "scylladb-dev/terraform.tfstate"
     region = "us-east-1"
   }
 }
+
 
