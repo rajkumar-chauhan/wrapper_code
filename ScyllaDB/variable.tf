@@ -1,6 +1,6 @@
 variable "ami_id" {
     type = string
-    default = "ami-0a0e5d9c7acc336f1"
+    default = "ami-04a81a99f5ec58529"
     description = "ami id"
 }
 
