@@ -1,6 +1,6 @@
 
 module "ScyllaDB" {
-  source                    = "git::https://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@github.com/mygurkulam-p9/Terrform_Module.git?ref=ec2_module""
+  source                    = "github.com/mygurkulam-p9/Terrform_Module.git?ref=ec2_module"
   vpc_id                    = data.terraform_remote_state.network.outputs.test_vpc_id
   private_subnet_id         = data.terraform_remote_state.network.outputs.private_subnet_id[2]
   ami_id                    = var.ami_id
